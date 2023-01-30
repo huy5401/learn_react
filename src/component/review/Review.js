@@ -44,7 +44,7 @@ export default function Review() {
             <div className='text-center'>
                 <RandomGift></RandomGift>
             </div> */}
-            {/* <UseEffect></UseEffect> */}
+            <UseEffect></UseEffect>
             <TodoUseEffect></TodoUseEffect>
         </div>
     )
