@@ -7,6 +7,8 @@ import ChapAppFake from './component/f8/hook/ChapAppFake';
 import { useState } from 'react';
 import UseLayoutEffect from './component/f8/hook/UseLayoutEffect';
 import UseRef from './component/f8/hook/UseRef';
+import UseMemo from './component/f8/hook/UseMemo';
+import UseReducer from './component/f8/hook/UseReducer';
 
 
 // dispatch custome event auto comment and log after 2 seconds
@@ -37,7 +39,7 @@ function App() {
     <div>
       <Header></Header>
       <button onClick={() => {setShow(!show)}}>toggle</button>
-      {show && <UseRef></UseRef>}
+      {show && <UseReducer></UseReducer>}
     </div>
   );
 }
